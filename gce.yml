@@ -9,7 +9,7 @@
       zone: "asia-northeast1"
       region: "asia-northeast1-c"
 
-tasks:
+  tasks:
     - name: Create an instance
       local_action:
         module: gce
