@@ -4,8 +4,10 @@
   connection: local
   vars:
       project_id: [my-project]
-      #auth_kind: serviceaccount
-      #service_account_file: /home/my_account.json
+      auth_kind: serviceaccount
+      service_account_file: /home/[account_name]/my_account.json
+      scopes:
+        - www.googleapis.com/auth/compute
       zone: "asia-northeast1"
       region: "asia-northeast1-c"
 
