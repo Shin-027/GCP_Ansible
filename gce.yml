@@ -3,7 +3,7 @@
   gather_facts: no
   connection: local
   vars:
-      project: [my-project]
+      project_id: [my-project]
       #auth_kind: serviceaccount
       #service_account_file: /home/my_account.json
       zone: "asia-northeast1"
@@ -20,3 +20,4 @@
         service_account_email: ""
         #pem_file: "{{ pem_file }}"
         project_id: "{{ project_id }}"
+        disk_size: 64
